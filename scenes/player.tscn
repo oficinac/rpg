@@ -1,6 +1,6 @@
 [gd_scene load_steps=35 format=3 uid="uid://c3er7evnjgn60"]
 
-[ext_resource type="Script" path="res://scenes/scripts/player.gd" id="1_q7gqu"]
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_q7gqu"]
 [ext_resource type="Texture2D" uid="uid://dum6h7sjspptp" path="res://sprites/characters/player.png" id="1_t82u8"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_6d4pu"]
@@ -251,7 +251,7 @@ script = ExtResource("1_q7gqu")
 position = Vector2(181, 67)
 sprite_frames = SubResource("SpriteFrames_13mbf")
 animation = &"side_idle"
-frame_progress = 0.597357
+frame_progress = 0.161005
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(182.5, 78.5)
