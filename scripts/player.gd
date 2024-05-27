@@ -3,6 +3,9 @@ extends CharacterBody2D
 const velocidade = 100
 var current_dir = "none"
 
+func _ready():
+	$anima.play("idle")
+
 func _physics_process(delta):
 	player_movement(delta)
 

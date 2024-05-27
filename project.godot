@@ -25,6 +25,11 @@ window/size/window_height_override=576
 window/stretch/mode="viewport"
 window/stretch/scale=2.0
 
+[input_devices]
+
+compatibility/depth_of_field/depth_of_field_use_jitter=false
+compatibility/stretch/scale=4.0
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
